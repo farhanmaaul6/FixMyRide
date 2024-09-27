@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".view.recomendation.RecomendationFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tv_tahun_motor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="28dp"
+            android:text="@string/tahun_motor"
+            android:textSize="19sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/et_tahun_motor"
+            android:layout_width="179dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="20dp"
+            android:background="@drawable/border_black"
+            android:inputType="number"
+            android:padding="5dp"
+            app:layout_constraintBottom_toBottomOf="@+id/tv_tahun_motor"
+            app:layout_constraintStart_toEndOf="@+id/tv_tahun_motor"
+            app:layout_constraintTop_toTopOf="@+id/tv_tahun_motor" />
+
+        <TextView
+            android:id="@+id/tv_km_motor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:text="@string/km_motor"
+            android:textSize="19sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/tv_tahun_motor"
+            app:layout_constraintTop_toBottomOf="@+id/tv_tahun_motor" />
+
+        <EditText
+            android:id="@+id/et_km_motor"
+            android:layout_width="179dp"
+            android:layout_height="35dp"
+            android:background="@drawable/border_black"
+            android:inputType="number"
+            android:padding="5dp"
+            app:layout_constraintBottom_toBottomOf="@+id/tv_km_motor"
+            app:layout_constraintEnd_toEndOf="@+id/et_tahun_motor"
+            app:layout_constraintTop_toTopOf="@+id/tv_km_motor" />
+
+
+        <TextView
+            android:id="@+id/tv_gejala1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:text="@string/gejala_1"
+            android:textSize="19sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/tv_km_motor"
+            app:layout_constraintTop_toBottomOf="@+id/tv_km_motor" />
+
+        <Spinner
+            android:id="@+id/sp_gejala_1"
+            android:layout_width="179dp"
+            android:layout_height="wrap_content"
+            android:entries="@array/gejala_1"
+            android:minHeight="48dp"
+            app:layout_constraintBottom_toBottomOf="@+id/tv_gejala1"
+            app:layout_constraintEnd_toEndOf="@+id/et_km_motor"
+            app:layout_constraintTop_toTopOf="@+id/tv_gejala1" />
+
+        <TextView
+            android:id="@+id/tv_gejala2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:text="@string/gejala_2"
+            android:textSize="19sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/tv_gejala1"
+            app:layout_constraintTop_toBottomOf="@+id/tv_gejala1" />
+
+        <Spinner
+            android:id="@+id/sp_gejala_2"
+            android:layout_width="179dp"
+            android:layout_height="wrap_content"
+            android:entries="@array/gejala_2"
+            android:minHeight="48dp"
+            app:layout_constraintBottom_toBottomOf="@+id/tv_gejala2"
+            app:layout_constraintEnd_toEndOf="@+id/et_km_motor"
+            app:layout_constraintTop_toTopOf="@+id/tv_gejala2" />
+
+        <TextView
+            android:id="@+id/tv_gejala3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:text="@string/gejala_3"
+            android:textSize="19sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/tv_gejala2"
+            app:layout_constraintTop_toBottomOf="@+id/tv_gejala2" />
+
+        <Spinner
+            android:id="@+id/sp_gejala_3"
+            android:layout_width="179dp"
+            android:layout_height="wrap_content"
+            android:entries="@array/gejala_3"
+            android:minHeight="48dp"
+            app:layout_constraintBottom_toBottomOf="@+id/tv_gejala3"
+            app:layout_constraintEnd_toEndOf="@+id/et_km_motor"
+            app:layout_constraintTop_toTopOf="@+id/tv_gejala3" />
+
+        <TextView
+            android:id="@+id/tv_jenis_motor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:text="@string/jenis_motor"
+            android:textSize="19sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/tv_gejala3"
+            app:layout_constraintTop_toBottomOf="@+id/tv_gejala3" />
+
+        <Spinner
+            android:id="@+id/sp_jenis_motor"
+            android:layout_width="179dp"
+            android:layout_height="wrap_content"
+            android:entries="@array/jenis_motor"
+            android:minHeight="48dp"
+            app:layout_constraintBottom_toBottomOf="@+id/tv_jenis_motor"
+            app:layout_constraintEnd_toEndOf="@+id/et_km_motor"
+            app:layout_constraintTop_toTopOf="@+id/tv_jenis_motor" />
+
+        <TextView
+            android:id="@+id/tv_merk_motor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:text="@string/merk_motor"
+            android:textSize="19sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/tv_jenis_motor"
+            app:layout_constraintTop_toBottomOf="@+id/tv_jenis_motor" />
+
+        <Spinner
+            android:id="@+id/sp_merk_motor"
+            android:layout_width="179dp"
+            android:layout_height="wrap_content"
+            android:entries="@array/merk_motor"
+            android:minHeight="48dp"
+            app:layout_constraintBottom_toBottomOf="@+id/tv_merk_motor"
+            app:layout_constraintEnd_toEndOf="@+id/et_km_motor"
+            app:layout_constraintTop_toTopOf="@+id/tv_merk_motor" />
+
+        <TextView
+            android:id="@+id/tv_service"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:text="@string/pernah_nservice"
+            android:textSize="19sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/tv_merk_motor"
+            app:layout_constraintTop_toBottomOf="@+id/tv_merk_motor" />
+
+        <Spinner
+            android:id="@+id/sp_service"
+            android:layout_width="179dp"
+            android:layout_height="wrap_content"
+            android:entries="@array/service"
+            android:minHeight="48dp"
+            app:layout_constraintBottom_toBottomOf="@+id/tv_service"
+            app:layout_constraintEnd_toEndOf="@+id/et_km_motor"
+            app:layout_constraintTop_toTopOf="@+id/tv_service" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="@string/permasalahan"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/tv_service"
+            app:layout_constraintTop_toBottomOf="@+id/tv_service" />
+
+        <TextView
+            android:id="@+id/tv_hasil_permasalahan"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:maxLines="5"
+            android:text=""
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/sp_service"
+            app:layout_constraintStart_toStartOf="@+id/textView2"
+            app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:text="@string/solusi"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/textView2"
+            app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+        <TextView
+            android:id="@+id/tv_hasil_solusi"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:maxLines="5"
+            android:text=""
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/tv_hasil_permasalahan"
+            app:layout_constraintStart_toStartOf="@+id/textView3"
+            app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+        <Button
+            android:id="@+id/btn_submit"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="Submit"
+            app:cornerRadius="10dp"
+            android:backgroundTint="@color/colorPrimary"
+            app:layout_constraintEnd_toEndOf="@+id/et_km_motor"
+            app:layout_constraintStart_toStartOf="@+id/textView3"
+            app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+        <ProgressBar
+            android:id="@+id/progress_bar"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</ScrollView>

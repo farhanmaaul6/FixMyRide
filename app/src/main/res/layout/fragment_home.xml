@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/frameMaps"
+    android:background="@drawable/bg_maps"
+    android:layout_height="match_parent"
+    tools:context=".view.home.HomeFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/bg_transparent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/bg_overlay">
+
+
+        <ImageView
+            android:id="@+id/iv_profile"
+            android:padding="16dp"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:contentDescription="@string/iv_profile"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/baseline_account_circle_24" />
+
+        <ImageButton
+            android:id="@+id/btn_circle"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintDimensionRatio="H,1:1"
+            android:layout_margin="60dp"
+            android:background="@drawable/bg_color_ripple"
+            android:contentDescription="@string/search_button"
+            android:src="@drawable/bg_ic_touch"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:text="@string/get_near_location"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.491"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn_circle" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

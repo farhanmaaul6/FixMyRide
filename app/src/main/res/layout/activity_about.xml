@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.about.AboutActivity">
+
+    <TextView
+        android:id="@+id/tv_title_about"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/title_about"
+        android:textSize="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_fill_about"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="@id/tv_title_about"
+        app:layout_constraintEnd_toEndOf="@+id/tv_title_about"
+        app:layout_constraintTop_toBottomOf="@id/tv_title_about"
+        android:text="@string/fill_About"
+        android:textAlignment="viewStart"
+        android:justificationMode="inter_word" />
+
+    <TextView
+        android:id="@+id/mahasiswa"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Aplikasi ini dibuat oleh :"
+        app:layout_constraintStart_toStartOf="@id/tv_fill_about"
+        app:layout_constraintEnd_toEndOf="@+id/tv_fill_about"
+        app:layout_constraintTop_toBottomOf="@id/tv_fill_about" />
+
+    <TextView
+        android:id="@+id/nama"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Farhan Maulana Muhammad"
+        app:layout_constraintStart_toStartOf="@id/mahasiswa"
+        app:layout_constraintEnd_toEndOf="@+id/mahasiswa"
+        app:layout_constraintTop_toBottomOf="@id/mahasiswa" />
+
+    <TextView
+        android:id="@+id/bimbingan"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Dengan Bimbingan : "
+        app:layout_constraintStart_toStartOf="@id/nama"
+        app:layout_constraintEnd_toEndOf="@+id/nama"
+        app:layout_constraintTop_toBottomOf="@id/nama" />
+
+    <TextView
+        android:id="@+id/dosen"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Dr. Aries Muslim, S.Kom., M.M., M.I.Kom "
+        app:layout_constraintStart_toStartOf="@id/bimbingan"
+        app:layout_constraintEnd_toEndOf="@+id/bimbingan"
+        app:layout_constraintTop_toBottomOf="@id/bimbingan" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

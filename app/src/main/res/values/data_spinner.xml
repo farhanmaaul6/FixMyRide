@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="gejala_1">
+        <item>oli berlebihan</item>
+        <item>kopling terlalu keras</item>
+        <item>kopling terlalu lembek</item>
+        <item>suara mendesis dari knalpot</item>
+        <item>suara aneh</item>
+        <item>getaran berlebihan</item>
+        <item>rem berderit</item>
+        <item>suara mendesis</item>
+        <item>kebocoran oli</item>
+        <item>bau aneh dari knalpot</item>
+        <item>konsumsi bahan bakar tinggi</item>
+        <item>hilangnya tenaga</item>
+        <item>kopling selip</item>
+        <item>kesulitan berpindah gigi</item>
+        <item>suara aneh dari knalpot</item>
+        <item>suara mendesis dari mesin</item>
+        <item>oli berkurang drastis</item>
+        <item>bau gas berlebihan</item>
+        <item>rem tidak pakem</item>
+        <item>suara aneh dari mesin</item>
+        <item>kondisi mesin baik</item>
+    </string-array>
+
+    <string-array name="gejala_2">
+        <item>suara mendesis</item>
+        <item>kesulitan berpindah gigi</item>
+        <item>idling tidak teratur</item>
+        <item>asap berlebihan</item>
+        <item>rem tidak pakem</item>
+        <item>suara gesekan</item>
+        <item>suara aneh</item>
+        <item>getaran pada setir</item>
+        <item>bau gas berlebihan</item>
+        <item>suara mendesis dari mesin</item>
+        <item>getaran berlebihan</item>
+        <item>kopling terlalu keras</item>
+        <item>getaran mesin</item>
+        <item>mesin terlalu panas</item>
+        <item>bau aneh dari knalpot</item>
+        <item>rem keras</item>
+        <item>suara aneh dari mesin</item>
+        <item>akselerasi mendadak</item>
+        <item>rem responsif</item>
+        <item>rem berderit</item>
+        <item>suara normal</item>
+        <item>mesin mati mendadak</item>
+        <item>sulit distarter</item>
+        <item>kopling terlalu lembek</item>
+    </string-array>
+
+
+    <string-array name="gejala_3">
+        <item>sulit distarter</item>
+        <item>tidak bisa berakselerasi</item>
+        <item>mesin mati mendadak</item>
+        <item>tidak ada</item>
+        <item>mesin terlalu panas</item>
+        <item>kesulitan berpindah gigi</item>
+        <item>konsumsi bahan bakar tinggi</item>
+        <item>suara berisik dari mesin</item>
+        <item>bau aneh dari knalpot</item>
+        <item>bau gas berlebihan</item>
+        <item>kesulitan memulai</item>
+    </string-array>
+
+
+    <string-array name="jenis_motor">
+        <item>manual</item>
+        <item>matic</item>
+    </string-array>
+
+    <string-array name="merk_motor">
+        <item>yamaha</item>
+        <item>honda</item>
+        <item>suzuki</item>
+    </string-array>
+
+    <string-array name="service">
+        <item>ya</item>
+        <item>tidak</item>
+    </string-array>
+</resources>

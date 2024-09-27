@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/mapsLayout"
+    tools:context=".view.maps.MapsActivity">
+
+    <fragment
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:id="@+id/maps"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <ImageButton
+        android:id="@+id/btn_your_location"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/ic_loc_search" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_maps"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:layout_gravity="bottom"
+        tools:listitem="@layout/dialog_maps"
+        android:layout_margin="10dp"/>
+</FrameLayout>

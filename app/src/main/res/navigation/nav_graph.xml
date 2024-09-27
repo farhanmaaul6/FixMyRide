@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/action_home">
+
+    <fragment
+        android:id="@+id/action_home"
+        android:name="com.bangkit.fixmyrideapp.view.home.HomeFragment"
+        android:label="fragment_main"
+        tools:layout="@layout/fragment_home" >
+    </fragment>
+    <fragment
+        android:id="@+id/action_news"
+        android:name="com.bangkit.fixmyrideapp.view.news.NewsFragment"
+        android:label="fragment_article"
+        tools:layout="@layout/fragment_news" />
+    <fragment
+        android:id="@+id/action_recommendation"
+        android:name="com.bangkit.fixmyrideapp.view.recomendation.RecomendationFragment"
+        android:label="fragment_history"
+        tools:layout="@layout/fragment_recomendation" />
+</navigation>
