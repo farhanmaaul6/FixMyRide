@@ -2,4 +2,6 @@
 Expanding users' knowledge base and streamlining the convenient location of nearby repair shops, ushering in a new era of efficiency and convenience for the motorbike repair shop business.
 
 # UI App
-![image alt](https://github.com/farhanmaaul6/FixMyRide/blob/a83972737ee0ec7c3de979137fa8ee7925a2dc56/fixmyride.png)
+![image alt](https://github.com/farhanmaaul6/FixMyRide/blob/ce795953fa5fe8117080aa83663b2fe3e0fe4f36/fixmyride.png)
+![image alt]
+![image alt]
